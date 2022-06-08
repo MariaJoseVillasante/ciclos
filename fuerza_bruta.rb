@@ -1,11 +1,11 @@
-#27 letras hay en el abcedario
 password = ARGV[0]
-largo = password.size
-#intentos = largo
 nueva = "a"
+intentos = 0
 
 while password != nueva
+    #puts ","
     nueva = nueva.next
+    #puts nueva
     intentos += 1
     
 end
